@@ -7,7 +7,6 @@ Week 6: Regression diagnostics, assumption testing, and robust standard errors.
 
 | File | Description |
 |------|-------------|
-| `week6_diagnostics_fred.py` | Script: quarterly GDP model with simulated macro data (FRED-like structure). Sequential regressions, diagnostic plots, Breusch-Pagan test, HC3 robust SEs, VIF. |
 | `week6_diagnostics_simulated.ipynb` | Notebook: simulated Firm Size / Firm Age → Revenue data with heteroskedasticity. Step-by-step diagnostics, plots, and fixes. |
 
 ## Setup
@@ -20,12 +19,6 @@ pip install -r requirements.txt
 
 ## Run
 
-**Python script:**
-```bash
-python week6_diagnostics_fred.py
-```
-
-**Notebook:**
 ```bash
 jupyter notebook week6_diagnostics_simulated.ipynb
 # or
