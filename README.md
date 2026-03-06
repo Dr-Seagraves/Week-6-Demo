@@ -9,21 +9,23 @@ Week 6: Regression diagnostics, assumption testing, and robust standard errors.
 |------|-------------|
 | `week6_diagnostics_simulated.ipynb` | Notebook: simulated Firm Size / Firm Age → Revenue data with heteroskedasticity. Step-by-step diagnostics, plots, and fixes. |
 
-## Setup
+## Setup for GitHub Codespaces
+
+### 1. Install Required Packages
+
+Open a terminal in your Codespace and run:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Run
+This installs pandas, numpy, matplotlib, and statsmodels.
 
-```bash
-jupyter notebook week6_diagnostics_simulated.ipynb
-# or
-jupyter lab week6_diagnostics_simulated.ipynb
-```
+### 2. Run the Notebook
+
+Simply open `week6_diagnostics_simulated.ipynb` in VS Code (it will be listed in the file tree). The Jupyter extension is pre-installed in Codespaces.
+
+Click the **Run All** button at the top of the notebook, or run cells individually by clicking the play button next to each code cell.
 
 ## What You'll Learn
 
